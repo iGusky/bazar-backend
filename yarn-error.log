@@ -1,0 +1,34 @@
+Arguments: 
+  /home/gusky/.nvm/versions/node/v14.15.1/bin/node /home/gusky/.nvm/versions/node/v14.15.1/bin/yarn add cors express mongoose
+
+PATH: 
+  /home/gusky/.sdkman/candidates/springboot/current/bin:/home/gusky/.nvm/versions/node/v14.15.1/bin:/opt/node-v10.1.0-linux-x64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/share/rvm/bin:/home/gusky/Android/Sdk/emulator:/home/gusky/Android/Sdk/tools:/home/gusky/Android/Sdk/tools/bin:/home/gusky/Android/Sdk/platform-tools:/home/gusky/Android/Sdk/emulator:/home/gusky/Android/Sdk/tools:/home/gusky/Android/Sdk/tools/bin:/home/gusky/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "name": "bazar-backend",
+    "version": "1.0.0",
+    "description": "backend para sistema de bazar",
+    "main": "index.js",
+    "author": "Gustavo Hernandez",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
