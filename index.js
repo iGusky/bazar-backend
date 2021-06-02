@@ -14,7 +14,7 @@ const app = express();
 app.use( bodyParser.json() );
 app.use( bodyParser.urlencoded({extended: true}) );
 
-const whiteList = ['http://localhost:3000'];
+const whiteList = [process.env.FRONTEND_URL];
 const corsOptions = {
   origin: (origin, callback) => {
     
@@ -31,6 +31,9 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use('/',routes());
 
-app.listen( 4000, 'localhost', ()=>{
+const host = process.env.HOST || '0.0.0.0'
+const port = process.env.PORT || 4000
+
+app.listen( port, host, () => {
   console.log('Servidor funcionando en el puerto 4000');
 })
