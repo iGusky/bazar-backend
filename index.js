@@ -20,7 +20,7 @@ const corsOptions = {
     
     // Revisar si la petición viene de un servidor en white list
     const existe = whiteList.some( dominio => dominio === origin );
-    if( existe ) {
+    if( true ) {
       callback(null, true);
     } else {
       callback(new Error('No permitido por CORS'));
