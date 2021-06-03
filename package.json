@@ -8,10 +8,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "start": "serve -s build"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
